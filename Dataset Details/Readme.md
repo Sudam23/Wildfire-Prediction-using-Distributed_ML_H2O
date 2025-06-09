@@ -41,4 +41,4 @@ See [VIIRS Attribute Documentation](https://earthdata.nasa.gov/earth-observation
 ```bash
 python csv_merge.py
 ```
-This script recursively reads all .csv files inside viirs-snpp_2023_all_countries/ and concatenates them into one unified dataset for further processing and model training.
+This script recursively reads all ```bash .csv ``` files inside viirs-snpp_2023_all_countries/ and concatenates them into one unified dataset for further processing and model training.
