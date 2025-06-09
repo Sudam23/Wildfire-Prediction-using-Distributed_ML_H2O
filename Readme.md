@@ -1,6 +1,6 @@
 # 🔥 Wildfire Prediction Using H2O in Distributed Mode
 
-This project presents a distributed machine learning pipeline for **wildfire prediction** using NASA FIRMS VIIRS 375m data and the **H2O framework**. It demonstrates how to use **AutoML in a multi-node cluster setup** to build and evaluate predictive models efficiently at scale.
+This project presents a distributed machine learning pipeline for **wildfire prediction** using **viirs-snpp_2023_all_countries.zip** and the **H2O framework**. It demonstrates how to use **AutoML in a multi-node cluster setup** to build and evaluate predictive models efficiently at scale.
 
 ---
 
