@@ -120,6 +120,15 @@ NASA FIRMS VIIRS data is open and free to use under its
 See `Dataset Details/AttributesReadme.txt` for full citation and disclaimer info.
 
 ---
+## 🖥️ Sample Visualization
+> Added screenshots of the silhouette score plot or 3D scatter plot here.
+
+
+## 👨‍💻 Author
+- **Sudam Kumar Paul**  
+MSc Big Data Analytics | RKMVERI 
+- **Kanan Pandit**  
+MSc Big Data Analytics | RKMVERI
 
 ## 📬 Contact
 
