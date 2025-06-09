@@ -1,0 +1,32 @@
+## You can apply Auto_ML function in your desired dataset to run ML algo.
+
+
+
+
+
+
+1.
+                               import time
+                               from h2o.automl import H2OAutoML
+
+                               localtime = time.asctime( time.localtime(time.time()) )
+                               print("Local current time :", localtime)
+                               print()
+        
+                      # Run AutoML for YY base models (limited to 1 hour max runtime by default)
+
+                              aml = H2OAutoML(max_models=15, seed=1234, exclude_algos = ["StackedEnsemble"],
+                                                balance_classes = True
+                                              )
+                              aml.train(x=featureColumns, y=targetColumn, training_frame = train, validation_frame = valid)
+ 
+                              localtime = time.asctime( time.localtime(time.time()) )
+                              print()
+                              print("Local current time :", localtime)
+
+
+
+2.
+
+                              lb = aml.leaderboard
+                              print(lb.head(rows = lb.nrows))
