@@ -121,7 +121,7 @@ See `Dataset Details/AttributesReadme.txt` for full citation and disclaimer info
 
 ---
 ## 🖥️ Sample Visualization
-> Added screenshots of the silhouette score plot or 3D scatter plot here.
+> Added screenshots of the H2O cluster setup and Output of ML models here.
 
 
 ## 👨‍💻 Author
