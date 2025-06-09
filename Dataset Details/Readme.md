@@ -53,3 +53,7 @@ dataset_preparation/
 ├── AttributesReadme.txt             # Attribute definitions & usage license
 └── dataset_name.txt                 # Contains original folder name
 ```
+## ✅ Usage Notes
+- Make sure to place the merged file ```Wildfire_prediction.csv``` in the correct directory used by your model training scripts.
+- Confirm all files are encoded in UTF-8 and share a consistent schema before merging.
+- NASA FIRMS data should be cited according to [these guidelines](https://www.earthdata.nasa.gov/data/projects/lance#ed-firms-citation).
