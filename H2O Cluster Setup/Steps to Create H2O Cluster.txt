@@ -1,4 +1,4 @@
-Requirements:  i.   Java-version 8 or later upto 17
+Requirements:   i.   Java-version 8 or later upto 17
                ii.  Python 3.12 
               iii.  h2o updated version.
                iv.   ML related Libraries.
