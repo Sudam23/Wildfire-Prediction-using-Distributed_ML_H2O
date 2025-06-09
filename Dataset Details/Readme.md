@@ -44,9 +44,4 @@ python csv_merge.py
 This script recursively reads all ```.csv ``` files inside ```viirs-snpp_2023_all_countries/``` and concatenates them into one unified dataset for further processing and model training.
 
 ## 📂 File Structure
-dataset_preparation/
-├── viirs-snpp_2023_all_countries/   # Raw CSV files (one per country)
-├── Wildfire_prediction.csv          # Final merged dataset
-├── csv_merge.py                     # Script to merge CSVs
-├── AttributesReadme.txt             # Attribute definitions & usage license
-└── dataset_name.txt                 # Contains original folder name
+<pre><code>## 📂 File Structure ```plaintext dataset_preparation/ ├── viirs-snpp_2023_all_countries/ # Raw CSV files (one per country) ├── Wildfire_prediction.csv # Final merged dataset ├── csv_merge.py # Script to merge CSVs ├── AttributesReadme.txt # Attribute definitions & usage license └── dataset_name.txt # Contains original folder name ``` </code></pre>
