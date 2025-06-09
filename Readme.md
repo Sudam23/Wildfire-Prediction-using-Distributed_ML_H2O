@@ -94,6 +94,56 @@ To run H2O in a distributed cluster, follow these steps:
 
 ---
 
+## 📘 Notebook Overview – `Final_Distributed_ML_using_H2O Framework.ipynb`
+
+This notebook demonstrates a complete, distributed machine learning workflow using the H2O framework.
+
+### 🔹 Steps Covered:
+
+1. **Environment Setup**
+   - Warnings suppressed, visualization style set.
+   - H2O cluster initialized using `h2o.init(ip="172.20.252.53", port=54323)`.
+
+2. **Data Loading**
+   - Data loaded from:
+     ```python
+     h2o.upload_file("Wildfire_prediction.csv")
+     ```
+
+3. **Exploratory Data Analysis**
+   - Sample records, data schema, null checks, summary stats.
+
+4. **Feature Engineering**
+   - Column conversion, data cleaning.
+   - Train/validation/test split:
+     ```python
+     train, valid, test = data.split_frame(ratios=[0.7, 0.15], seed=1234)
+     ```
+
+5. **AutoML Training**
+   - Automatically trains models using:
+     ```python
+     from h2o.automl import H2OAutoML
+     aml = H2OAutoML(max_models=10, seed=1, max_runtime_secs=600)
+     aml.train(y="target_column", training_frame=train, validation_frame=valid)
+     ```
+
+6. **Model Leaderboard**
+   - AutoML leaderboard includes GBM, XGBoost, DRF, GLM, and Ensembles.
+
+7. **Evaluation**
+   - Leader model is evaluated on test set.
+   - Metrics and visualizations include AUC, LogLoss, variable importance.
+
+8. **Prediction and Export**
+   - Final predictions saved as:
+     ```python
+     preds = aml.leader.predict(test)
+     preds.as_data_frame().to_csv("wildfire_predictions.csv")
+     ```
+
+---
+
 ## 📈 Output Highlights
 
 - Models trained using AutoML include:
