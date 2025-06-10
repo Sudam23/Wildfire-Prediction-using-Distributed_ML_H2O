@@ -157,7 +157,7 @@ In addition to AutoML, the notebook also trains a standalone **Random Forest Cla
   rf_model.train(x=x, y=y, training_frame=train, validation_frame=valid)
   ```
 
-The model is trained and summarized to compare with AutoML leaderboard performance.
+The model is trained and summarized to compare.
 
 ---
 
