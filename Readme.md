@@ -175,9 +175,10 @@ The model is trained and summarized to compare.
 
 ## 🧠 Learning Outcomes
 
-- End-to-end wildfire prediction pipeline using distributed ML
-- Understanding of H2O AutoML in real-world settings
-- Hands-on experience with H2O cluster setup and orchestration
+- End-to-end wildfire prediction pipeline using distributed ML.
+- Manual model comparison using Random Forest.
+- Understanding of H2O AutoML in real-world settings.
+- Hands-on experience with H2O cluster setup and orchestration.
 
 ---
 
