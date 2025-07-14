@@ -211,6 +211,15 @@ In addition to AutoML, the notebook also trains a standalone **Random Forest Cla
   ```
 
 The model is trained and summarized to compare.
+#### 📈 Model Performance: 
+
+| Metric                | Value    |
+|-----------------------|----------|
+| RMSE                  | 0.1721   |
+| MSE                   | 0.02964  |
+| Mean Per Class Error  | 0.070    |
+| LogLoss               | 0.0961   |
+
 
 ---
 
@@ -220,9 +229,9 @@ The model is trained and summarized to compare.
   - GBM, DRF, XGBoost, GLM, Deep Learning, Stacked Ensembles
   - + Manual Random Forest
 - Evaluation Metrics:
-  - AUC, RMSE, LogLoss, Variable Importance
+  - MSE, RMSE, LogLoss, Variable Importance
 - Output:
-  - Predictions exported to `wildfire_predictions.csv`
+  - 
 
 ---
 
