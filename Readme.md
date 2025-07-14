@@ -2,6 +2,8 @@
 
 This project presents a distributed machine learning pipeline for **wildfire prediction** using **viirs-snpp_2023_all_countries.zip** and the **H2O framework**. It demonstrates how to use **AutoML in a multi-node cluster setup** to build and evaluate predictive models efficiently at scale.
 
+> A multiclass classification project leveraging a **2-node distributed H2O cluster** and a **Distributed Random Forest (DRF)** model to predict wildfire confidence levels using **VIIRS SNPP 2023 global data**.
+
 ---
 
 ## 📁 Project Structure
