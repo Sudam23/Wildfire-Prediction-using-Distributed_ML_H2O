@@ -6,6 +6,18 @@ This project presents a distributed machine learning pipeline for **wildfire pre
 
 ---
 
+## 🎯 Objective
+
+The primary objective of this project is to:
+- Build a **high-accuracy wildfire classification system**
+- Utilize **distributed computing** to handle large-scale satellite data
+- Deploy a **Distributed Random Forest (DRF)** model via H2O.ai
+- Evaluate performance using real metrics like **AUC, Accuracy, F1-score**
+- Enable analysis across all countries using 2023 fire records
+
+---
+
+
 ## 📁 Project Structure
 
 ```plaintext
@@ -26,11 +38,50 @@ Wildfire-Prediction-using-Distributed_ML_H2O/
 
 ---
 
+## 📍 Course Project | Ramakrishna Mission Vivekananda Educational and Research Institute, Belur Math  
+🧠 Team: Tom and Jerry  
+👨‍💻 Members: Kanan Pandit , Sudam Paul  
+
+
 ## 📊 Dataset Details
 
 - **Source:** NASA FIRMS VIIRS 375m Active Fire Data (2023)  
 - **Original Folder Name:** `viirs-snpp_2023_all_countries`  
 - **Content:** Multiple country-wise `.csv` files containing wildfire events (latitude, longitude, brightness, date, time, etc.)
+
+### 🔗 Official Data Sources
+
+- 🌍 **Global Fire Data Download**: [https://firms.modaps.eosdis.nasa.gov/download/](https://firms.modaps.eosdis.nasa.gov/download/)  
+- 🌐 **Country-wise Fire Data Viewer**: [https://firms.modaps.eosdis.nasa.gov/country/](https://firms.modaps.eosdis.nasa.gov/country/)
+
+This dataset includes active fire points detected globally by the **Suomi National Polar-orbiting Partnership (SNPP)** satellite using the **VIIRS sensor at 375m resolution**.
+### 📄 Data Overview
+
+- **Satellite**: VIIRS SNPP  
+- **Temporal Coverage**: January 1 – December 31, 2023  
+- **Spatial Coverage**: 🌍 All countries (global)  
+- **Resolution**: 375 meters  
+- **Projection**: WGS84 (latitude/longitude)  
+- **Format**: CSV (also available as KML, SHP via FIRMS)
+
+---
+
+### 🔍 Feature Summary
+
+| Feature     | Description                                |
+|-------------|--------------------------------------------|
+| `latitude`  | Fire latitude (WGS84)                      |
+| `longitude` | Fire longitude (WGS84)                     |
+| `brightness`| Brightness of fire detection               |
+| `scan`      | Width of the scan footprint                |
+| `track`     | Length of the scan footprint               |
+| `acq_date`  | Date of fire detection                     |
+| `acq_time`  | Time of fire detection (UTC)               |
+| `satellite` | SNPP satellite ID                          |
+| `confidence`| Confidence level (Low, Nominal, High)      |
+| `frp`       | Fire Radiative Power (MW)                  |
+| `daynight`  | Day or Night detection                     |
+| `version`   | Collection version info                    |
 
 For more information on attribute fields:  
 🔗 https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/v1-vnp14imgt#ed-viirs-375m-attributes
