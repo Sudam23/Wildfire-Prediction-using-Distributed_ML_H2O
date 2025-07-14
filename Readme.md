@@ -202,7 +202,7 @@ This notebook demonstrates a complete, distributed machine learning workflow usi
 
 ---
 
-###🌲 Manual Random Forest Model (Outside AutoML)
+### 🌲 Manual Random Forest Model (Outside AutoML)
 
 In addition to AutoML, the notebook also trains a standalone **Random Forest Classifier** using `H2ORandomForestEstimator` for predicting wildfire confidence levels.
 
