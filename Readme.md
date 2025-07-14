@@ -273,7 +273,7 @@ See `Dataset Details/AttributesReadme.txt` for full citation and disclaimer info
 ---
 ## 🖥️ Sample Visualization
 > Added screenshots of the H2O cluster setup and Output of ML models here.
-![Screenshot](images/screenshot.png)
+![Screenshot](Setup1.png)
 
 
 ## 👨‍💻 Author
