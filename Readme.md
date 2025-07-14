@@ -236,7 +236,7 @@ The model is trained and summarized to compare.
 - Evaluation Metrics:
   - MSE, RMSE, LogLoss, Variable Importance
 - Output:
-  - 
+  - In Progress............
 
 ---
 
@@ -272,8 +272,9 @@ See `Dataset Details/AttributesReadme.txt` for full citation and disclaimer info
 
 ---
 ## 🖥️ Sample Visualization
-> Added screenshots of the H2O cluster setup and Output of ML models here.
+> Screenshots of the H2O cluster setup and Output of ML models.
 ![Screenshot](Setup1.png)
+![Screenshot](Setup2.png)
 
 
 ## 👨‍💻 Author
