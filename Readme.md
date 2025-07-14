@@ -235,7 +235,21 @@ The model is trained and summarized to compare.
 
 ---
 
+### 🙏 Acknowledgements
+
+Special thanks to:
+
+**Champak Kumar Dutta**  
+Assistant Professor, Department of Data Science  
+RKMVERI, Belur Math, West Bengal  
+
+For his guidance, mentorship, and continuous encouragement.
+
+---
 ## 📜 Citation and License
+This project is intended for **academic use only** and is **not licensed for commercial or production deployment**.  
+**No license is granted.**  
+Please contact the authors for further usage rights.
 
 NASA FIRMS VIIRS data is open and free to use under its  
 📄 [Data Policy](https://earthdata.nasa.gov/earth-observation-data/near-real-time/citation#ed-firms-citation)  
@@ -256,3 +270,15 @@ MSc Big Data Analytics | RKMVERI
 ## 📬 Contact
 
 For any questions or contributions, feel free to open an issue or a pull request.
+
+### 👨‍💻 Kanan Pandit  
+🌐 [Portfolio](https://kananpanditportfolio.netlify.app/)  
+✉️ kananpandit02@gmail.com  
+
+### 👨‍💻 Sudam Paul  
+🌐 [Portfolio](https://sudam23.github.io/My_Portfolio/)  
+✉️ 2002sudam@gmail.com  
+
+### 🏫 Institution  
+**Ramakrishna Mission Vivekananda Educational and Research Institute**  
+📍 *Belur Math, Howrah, West Bengal*
