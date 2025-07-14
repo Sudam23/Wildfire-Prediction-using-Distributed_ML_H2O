@@ -202,7 +202,7 @@ This notebook demonstrates a complete, distributed machine learning workflow usi
 
 ---
 
-### Manual Random Forest Model (Outside AutoML)
+###🌲 Manual Random Forest Model (Outside AutoML)
 
 In addition to AutoML, the notebook also trains a standalone **Random Forest Classifier** using `H2ORandomForestEstimator` for predicting wildfire confidence levels.
 
@@ -232,7 +232,7 @@ The model is trained and summarized to compare.
 
 - Models Trained:
   - GBM, DRF, XGBoost, GLM, Deep Learning, Stacked Ensembles
-  - + Manual Random Forest
+  - Manual Random Forest
 - Evaluation Metrics:
   - MSE, RMSE, LogLoss, Variable Importance
 - Output:
@@ -273,6 +273,7 @@ See `Dataset Details/AttributesReadme.txt` for full citation and disclaimer info
 ---
 ## 🖥️ Sample Visualization
 > Added screenshots of the H2O cluster setup and Output of ML models here.
+![Screenshot](images/screenshot.png)
 
 
 ## 👨‍💻 Author
