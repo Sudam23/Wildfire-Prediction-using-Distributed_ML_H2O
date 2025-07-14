@@ -1,5 +1,10 @@
 # 🔥 Wildfire Prediction Using H2O in Distributed Mode
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![H2O.ai](https://img.shields.io/badge/H2O.ai-distributed-yellow)
+![License: Academic Use](https://img.shields.io/badge/License-Academic%20Use%20Only-lightgrey)
+![Status](https://img.shields.io/badge/status-active-success)
+
 This project presents a distributed machine learning pipeline for **wildfire prediction** using **viirs-snpp_2023_all_countries.zip** and the **H2O framework**. It demonstrates how to use **AutoML in a multi-node cluster setup** to build and evaluate predictive models efficiently at scale.
 
 > A multiclass classification project leveraging a **2-node distributed H2O cluster** and a **Distributed Random Forest (DRF)** model to predict wildfire confidence levels using **VIIRS SNPP 2023 global data**.
